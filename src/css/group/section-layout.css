@@ -1,0 +1,9 @@
+.section-layout {
+  display: grid;
+  position: relative;
+  padding: var(--space-big) var(--space-medium);
+}
+.section-content {
+  width: 100%;
+}
+

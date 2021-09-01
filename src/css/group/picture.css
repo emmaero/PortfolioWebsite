@@ -1,0 +1,8 @@
+.picture {
+text-align: center;
+padding: 44px 0;
+}
+.picture > img{
+width: 95%;
+margin: auto;
+}

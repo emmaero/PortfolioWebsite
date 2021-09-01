@@ -2,8 +2,14 @@ h1 {
     font-size: var(--font-heading-1-mobile)
 }
 
+h2 {
+    font-size: var(--font-heading-2-mobile)
+}
 @media (min-width: 550px) {
   h1 {
     font-size: var(--font-heading-1-desktop);
+  }
+  h2 {
+    font-size: var(--font-heading-2-desktop);
   }
 }

@@ -6,8 +6,11 @@
 
 /* group */
 @import url("./group/navigation-bar.css");
+@import url("./group/section-layout.css");
+@import url("./group/picture.css");
 /* particle */
 @import url("./particle/logo.css");
 @import url("./particle/headings.css");
+@import url("./particle/paragraph.css");
 /* templates */
 @import url("./templates/hero.css");
