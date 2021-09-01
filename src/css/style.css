@@ -8,5 +8,6 @@
 @import url("./group/navigation-bar.css");
 /* particle */
 @import url("./particle/logo.css");
+@import url("./particle/headings.css");
 /* templates */
-@import url("");
+@import url("./templates/hero.css");
