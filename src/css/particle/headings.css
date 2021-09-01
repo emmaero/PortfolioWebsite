@@ -1,0 +1,9 @@
+h1 {
+    font-size: var(--font-heading-1-mobile)
+}
+
+@media (min-width: 550px) {
+  h1 {
+    font-size: var(--font-heading-1-desktop);
+  }
+}
