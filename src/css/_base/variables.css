@@ -1,15 +1,15 @@
-:root{
-
+:root {
   /* Colors */
   --color-primary: #000000;
   --color-primary-dark: #000000;
   --color-secondary: #f6f4f5;
   --color-secondary-dark: #817f81;
   --color-gray-1: #a9a9a8;
-  --color-gray-2: #C4C4C4;
+  --color-gray-2: #c4c4c4;
 
-      /* Spacing */
-  --space-big: 24px;
+  /* Spacing */
+  --space-extra-big: 44px;
+  --space-big: 32px;
   --space-medium: 16px;
   --space-small: 8px;
 
@@ -33,6 +33,5 @@
   --font-nav-mobile: 11px;
   --font-nav-desktop: 17px;
 
-
   --font-pill: 12px;
-} 
+}

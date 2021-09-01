@@ -1,0 +1,9 @@
+p{
+    font-size: var(--font-text-mobile);
+    line-height: 22px;
+}
+@media (min-width: 550px) {
+    p {
+      font-size: var(--font-text-desktop);
+    }
+  }
