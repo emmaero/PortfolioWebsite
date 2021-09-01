@@ -1,0 +1,38 @@
+:root{
+
+  /* Colors */
+  --color-primary: #000000;
+  --color-primary-dark: #000000;
+  --color-secondary: #f6f4f5;
+  --color-secondary-dark: #817f81;
+  --color-gray-1: #a9a9a8;
+  --color-gray-2: #C4C4C4;
+
+      /* Spacing */
+  --space-big: 24px;
+  --space-medium: 16px;
+  --space-small: 8px;
+
+  /* Fonts */
+  --font-family: "Lato", sans-serif;
+  --font-heading-1-mobile: 34px;
+  --font-heading-1-desktop: 50px;
+
+  --font-heading-2-mobile: 22px;
+  --font-heading-2-desktop: 42px;
+
+  --font-heading-3-mobile: 17px;
+  --font-heading-3-desktop: 24px;
+
+  --font-text-mobile: 17px;
+  --font-text-desktop: 18px;
+
+  --font-button-mobile: 14px;
+  --font-button-desktop: 16px;
+
+  --font-nav-mobile: 11px;
+  --font-nav-desktop: 17px;
+
+
+  --font-pill: 12px;
+} 
