@@ -1,0 +1,41 @@
+.card {
+  max-width: 155px;
+  min-height: 164px;
+  background-color: var(--color-secondary);
+  text-align: center;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin: var(--space-small);
+}
+.thumbnail {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.thumbnail > img {
+  width: 155px;
+  height: 116px;
+  object-fit: cover;
+}
+.thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  background-color: rgba(41, 54, 54, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail-overlay >span {
+    max-width: 86px;
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+.title {
+  padding: var(--space-small);
+}

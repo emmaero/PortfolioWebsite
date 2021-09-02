@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "isDone": "true",
+    "thumbnail": "vegan_restuarant.jpg",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  },
+  {
+    "id": 2,
+    "thumbnail": "vegan_restuarant.jpg",
+    "isDone": "false",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  },
+  {
+    "id": 3,
+    "thumbnail": "vegan_restuarant.jpg",
+    "isDone": "false",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  },
+  {
+    "id": 4,
+    "thumbnail": "vegan_restuarant.jpg",
+    "isDone": "false",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  },
+  {
+    "id": 5,
+    "thumbnail": "vegan_restuarant.jpg",
+    "isDone": "false",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  },
+  {
+    "id": 6,
+    "thumbnail": "vegan_restuarant.jpg",
+    "isDone": "false",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  },
+  {
+    "id": 7,
+    "thumbnail": "vegan_restuarant.jpg",
+    "isDone": "false",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  },
+  {
+    "id": 8,
+    "thumbnail": "vegan_restuarant.jpg",
+    "isDone": "false",
+    "project": {
+      "title": "Vegan restaurant website",
+      "imageUrl": "",
+      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "pillList": ["react", "css", "sass"],
+      "websiteUrl": "https://www.vegangoteborg.se",
+      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+    }
+  }
+]
