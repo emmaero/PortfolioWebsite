@@ -12,8 +12,8 @@ export default function NavigationBar() {
         <a className="menu-link" href="#about">
           About
         </a>
-        <a className="menu-link" href="#projects">
-          Projects
+        <a className="menu-link" href="#portfolio">
+          Portfolio
         </a>
         <a className="menu-link" href="#tech">
           Tech

@@ -1,3 +1,6 @@
 .App {
-    font-family: var(--font-family);
+  font-family: var(--font-family);
+}
+html {
+  scroll-behavior: smooth;
 }
