@@ -7,7 +7,25 @@
       "title": "Vegan restaurant website",
       "imageUrl": "vegan_restuarant.jpg",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      "pillList": ["react", "css", "sass","html","react", "css", "sass","html that is longer than long","react", "css", "sass","html","html that is longer than long","react", "css", "sass","html"],
+      "pillList": [
+        "react",
+        "css",
+        "sass",
+        "html",
+        "react",
+        "css",
+        "sass",
+        "html that is longer than long",
+        "react",
+        "css",
+        "sass",
+        "html",
+        "html that is longer than long",
+        "react",
+        "css",
+        "sass",
+        "html"
+      ],
       "websiteUrl": "https://www.vegangoteborg.se",
       "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
     }

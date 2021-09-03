@@ -9,9 +9,11 @@
   justify-content: center;
   width: 100%;
 }
+
 #portfolio > .section-content {
   display: grid;
   grid-template-columns: auto auto;
+  
 }
 #tech > .section-content {
   display: grid;

@@ -40,7 +40,7 @@ function App() {
       <SectionLayout id="contacts" title={title.contact} text={techDescription}>
         <Contact />
       </SectionLayout>
-      <PageFooter/>
+      <PageFooter />
     </div>
   );
 }
