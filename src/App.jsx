@@ -5,12 +5,14 @@ import Picture from "./components/Picture";
 import Card from "./components/Card";
 import projects from "./contents/projects.json";
 import title from "./contents/title.json";
+import ProjectModal from "./components/ProjectModal";
 import "./css/style.css";
 
 function App() {
   const aboutDescription = `Hi! I’m Emmanuel, a junior frontend developer. This is my website, which I use to showcase everything I developer.
     I specialize in Vue.js and React development with TypeScript with a minimalist design and attention to detail. Why do I need minimalistic design and attention to detail, you might ask? Well, scroll down and let me convince you.`;
   const projectsDescription = `Here are projects have done some and some upcoming projects I will be doing during the Frontend course at Novare Potential.`;
+  const techDescription = `Here is the techology that I already know and also starting to learn.`;
   const cardList = projects.map((item) => <Card key={item.id} item={item} />);
   return (
     <div className="App">
@@ -26,6 +28,10 @@ function App() {
       >
         {cardList}
       </SectionLayout>
+      <SectionLayout id="tech" title={title.tech} text={techDescription}>
+        <p>icons here</p>
+      </SectionLayout>
+      
     </div>
   );
 }

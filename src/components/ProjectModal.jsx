@@ -1,25 +1,36 @@
 import React from "react";
-import projects from "../contents/projects.json";
+import reactDom from "react-dom";
+import Pill from "./Pill";
+import close from "../assets/icons/button-close.png";
 
-export default function ProjectModal() {
-  const item = projects[0];
-  const pills = item.project.pillList.map((item) => <li>{item}</li>);
-  const screenShotUrl = require("../assets/thumbnails/" +
-    item.thumbnail).default;
-  return (
+export default function ProjectModal({ open, toggleModal, item }) {
+  const { title, imageUrl, text, pillList, websiteUrl, gitUrl } = item;
+  if (!open) return null;
+  // get the first 15 pills
+  const filtered = pillList.slice(0, 15);
+  const pills = filtered.map((item, index) => <Pill key={index} tech={item} />);
+  const screenShotUrl = require("../assets/screenShots/" + imageUrl).default;
+  return reactDom.createPortal(
     <div className="modal">
+      <button className="button-close" onClick={toggleModal}>
+        <img src={close} alt="" />
+      </button>
       <div className="modal-wrapper">
-        <img className="modal-image" src={screenShotUrl} alt="" />
+        <img src={screenShotUrl} alt="" />
 
-        <h2>{item.project.title}</h2>
-        <div className="pills"></div>
-        <button>
-          <a href="'">Visit website/app</a>
-        </button>
-        <button>
-          <a href="">Git repository</a>
-        </button>
+        <h2 className="modal-title">{title}</h2>
+        <p className="modal-description">{text}</p>
+        <ul className="pill-list">{pills}</ul>
+        <div className="modal-buttons-wrapper">
+          <button className="button-main button-primary">
+            <a href={websiteUrl}>Visit website/app</a>
+          </button>
+          <button className="button-main button-secondary">
+            <a href={gitUrl}>Git repository</a>
+          </button>
+        </div>
       </div>
-    </div>
+    </div>,
+    document.getElementById("modal-root")
   );
 }

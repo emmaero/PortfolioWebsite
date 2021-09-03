@@ -9,10 +9,13 @@
 @import url("./group/section-layout.css");
 @import url("./group/picture.css");
 @import url("./group/card.css");
+@import url("./group/buttons.css");
 /* particle */
 @import url("./particle/logo.css");
 @import url("./particle/headings.css");
 @import url("./particle/paragraph.css");
+@import url("./particle/pill.css");
+
 /* templates */
 @import url("./templates/hero.css");
 @import url("./templates/modal-project.css");
