@@ -1,0 +1,52 @@
+.button-primary {
+  border: none;
+  color: var(--color-secondary);
+  background-image: linear-gradient(
+    to right,
+    var(--color-secondary),
+    var(--color-primary-dark)
+  );
+}
+.button-secondary {
+  border: 2px solid var(--color-gray-1);
+  color: var(--color-primary-dark);
+}
+
+.button-main {
+  height: 44px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.button-main {
+  display: block;
+  width: 90%;
+  margin: 4px;
+}
+.button-main > a {
+  text-decoration: none;
+  color: inherit;
+}
+.button-main > a:link {
+  text-decoration: none;
+}
+
+.button-main > a:visited {
+  text-decoration: none;
+}
+
+.button-main > a {
+  text-decoration: none;
+}
+.button-main > a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.button-close {
+  position: absolute;
+  top: var(--space-medium);
+  right: var(--space-medium);
+  background: transparent;
+  border: none;
+}
