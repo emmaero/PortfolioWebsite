@@ -11,10 +11,11 @@ export default function ProjectModal({ isOpen, toggleModal, item }) {
   const screenShotUrl = require("../assets/screenShots/" + imageUrl).default;
   return reactDom.createPortal(
     <div className="modal">
+        <div className="modal-wrapper">
       <button className="button-close" onClick={toggleModal}>
         <img src={close} alt="" />
       </button>
-      <div className="modal-wrapper">
+      <div className="modal-detail">
         <img src={screenShotUrl} alt="" />
 
         <h2 className="modal-title">{title}</h2>
@@ -28,6 +29,7 @@ export default function ProjectModal({ isOpen, toggleModal, item }) {
             <a href={gitUrl}>Git repository</a>
           </button>
         </div>
+      </div>
       </div>
     </div>,
     document.getElementById("modal-root")
