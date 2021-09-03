@@ -3,12 +3,11 @@ import reactDom from "react-dom";
 import Pill from "./Pill";
 import close from "../assets/icons/button-close.png";
 
-export default function ProjectModal({ open, toggleModal, item }) {
+export default function ProjectModal({ isOpen, toggleModal, item }) {
   const { title, imageUrl, text, pillList, websiteUrl, gitUrl } = item;
-  if (!open) return null;
-  // get the first 15 pills
-  const filtered = pillList.slice(0, 15);
-  const pills = filtered.map((item, index) => <Pill key={index} tech={item} />);
+  if (!isOpen) return null;
+
+  const pills = pillList.map((item, index) => <Pill key={index} tech={item} />);
   const screenShotUrl = require("../assets/screenShots/" + imageUrl).default;
   return reactDom.createPortal(
     <div className="modal">

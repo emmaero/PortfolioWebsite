@@ -1,0 +1,12 @@
+.tech-icon-background{
+width: 44px;
+color: var(--color-primary);
+}
+.tech-icon-background img{
+width: 100%;
+    }
+.tech-name{
+color: var(--color-primary);
+font-size: 12px;
+}
+

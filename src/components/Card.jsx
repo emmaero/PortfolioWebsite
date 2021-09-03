@@ -35,7 +35,7 @@ export default function Card({ item }) {
         </div>
       </button>
       <ProjectModal
-        open={isOpen}
+        isOpen={isOpen}
         toggleModal={toggleModal}
         item={item.project}
       />
