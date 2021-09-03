@@ -1,92 +1,57 @@
 [
   {
     "id": 1,
-    "iconUrl": "React.png",
+    "iconUrl": "react.png",
     "name": "React"
   },
   {
     "id": 2,
-    "iconUrl": "React.png",
+    "iconUrl": "angular.png",
     "name": "Angular"
   },
   {
     "id": 3,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "c#.png",
+    "name": "C#"
   },
   {
     "id": 4,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "css3.png",
+    "name": "CSS"
   },
   {
     "id": 5,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "firebase.png",
+    "name": "Firebase"
   },
   {
     "id": 6,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "java.png",
+    "name": "Java"
   },
   {
     "id": 7,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "javascript.png",
+    "name": "Javascript"
   },
   {
     "id": 8,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "node.png",
+    "name": "Node"
   },
   {
     "id": 9,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "npm.png",
+    "name": "NPM"
   },
   {
     "id": 10,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "python.png",
+    "name": "Python"
   },
   {
     "id": 11,
-    "iconUrl": "React.png",
-    "name": "React"
-  },
-  {
-    "id": 12,
-    "iconUrl": "React.png",
-    "name": "React"
-  },
-  {
-    "id": 13,
-    "iconUrl": "React.png",
-    "name": "React"
-  },
-  {
-    "id": 14,
-    "iconUrl": "React.png",
-    "name": "React"
-  },
-  {
-    "id": 15,
-    "iconUrl": "React.png",
-    "name": "React"
-  },
-  {
-    "id": 16,
-    "iconUrl": "React.png",
-    "name": "React"
-  },
-  {
-    "id": 17,
-    "iconUrl": "React.png",
-    "name": "React"
-  },
-  {
-    "id": 18,
-    "iconUrl": "React.png",
-    "name": "React"
+    "iconUrl": "sass.png",
+    "name": "sass"
   }
 ]

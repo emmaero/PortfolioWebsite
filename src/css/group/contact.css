@@ -1,0 +1,13 @@
+.contact{
+    list-style: none;
+    margin: 0;
+    color: var(--color-primary);
+}
+.contact >li{
+  display: flex;
+  padding: var(--space-small) 0;
+}
+.contact a{
+    color: var(--color-primary);
+    margin-left: var(--space-small);
+  }
