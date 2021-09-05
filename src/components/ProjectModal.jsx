@@ -11,25 +11,26 @@ export default function ProjectModal({ isOpen, toggleModal, item }) {
   const screenShotUrl = require("../assets/screenShots/" + imageUrl).default;
   return reactDom.createPortal(
     <div className="modal">
-        <div className="modal-wrapper">
-      <button className="button-close" onClick={toggleModal}>
-        <img src={close} alt="" />
-      </button>
-      <div className="modal-detail">
-        <img src={screenShotUrl} alt="" />
-
-        <h2 className="modal-title">{title}</h2>
-        <p className="modal-description">{text}</p>
-        <ul className="pill-list">{pills}</ul>
-        <div className="modal-buttons-wrapper">
-          <button className="button-main button-primary">
-            <a href={websiteUrl}>Visit website/app</a>
-          </button>
-          <button className="button-main button-secondary">
-            <a href={gitUrl}>Git repository</a>
-          </button>
+      <div className="modal-wrapper">
+        <button className="button-close" onClick={toggleModal}>
+          <img src={close} alt="" />
+        </button>
+        <div className="modal-detail">
+          <div className="modal-image-wrapper">
+            <img src={screenShotUrl} alt="" />
+          </div>
+          <div className="modal-info-wrapper">
+            <h2 className="modal-title">{title}</h2>
+            <p className="modal-description">{text}</p>
+            <ul className="pill-list">{pills}</ul>
+            <button className="button-main button-primary">
+              <a href={websiteUrl}>Visit website/app</a>
+            </button>
+            <button className="button-main button-secondary">
+              <a href={gitUrl}>Git repository</a>
+            </button>
+          </div>
         </div>
-      </div>
       </div>
     </div>,
     document.getElementById("modal-root")

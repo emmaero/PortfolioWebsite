@@ -8,7 +8,7 @@
   );
 }
 .button-secondary {
-  border: 2px solid var(--color-gray-1);
+  border: 2px solid var(--color-secondary);
   color: var(--color-primary-dark);
 }
 
@@ -21,6 +21,7 @@
   display: block;
   width: 90%;
   margin: 4px;
+  transition: background-image 0.5s ease;
 }
 .button-main > a {
   text-decoration: none;
@@ -49,4 +50,14 @@ a:visited {
   right: var(--space-medium);
   background: transparent;
   border: none;
+}
+.button-primary:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary-dark),
+    var(--color-primary-dark)
+  );
+}
+.button-secondary:hover {
+  border: 2px solid var(--color-secondary-dark);
 }
