@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function Hero() {
-    return (
-        <header className="hero" id="hero">
-            <div className="hero-container">
-            <h1>Hi i’m Emmanuel a frontend developer based in Halmstad, Sweden</h1>
-            </div>
-        </header>
-    )
+  return (
+    <header className="hero" id="hero">
+      <div className="hero-container">
+        <h1>Hi i’m Emmanuel a frontend developer based in Halmstad, Sweden</h1>
+      </div>
+    </header>
+  );
 }

@@ -12,11 +12,7 @@ export default function Card({ item }) {
 
   return (
     <>
-      <button
-        disabled={!item.isDone}
-        onClick={toggleModal}
-        className="card"
-      >
+      <button disabled={!item.isDone} onClick={toggleModal} className="card">
         <div className="thumbnail">
           <img
             src={require("../assets/thumbnails/" + item.thumbnail).default}

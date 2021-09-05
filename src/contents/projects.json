@@ -5,27 +5,9 @@
     "thumbnail": "vegan_restuarant.jpg",
     "project": {
       "title": "Vegan restaurant website",
-      "imageUrl": "vegan_restuarant.jpg",
+      "imageUrl": "vegan.png",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      "pillList": [
-        "react",
-        "css",
-        "sass",
-        "html",
-        "react",
-        "css",
-        "sass",
-        "html that is longer than long",
-        "react",
-        "css",
-        "sass",
-        "html",
-        "html that is longer than long",
-        "react",
-        "css",
-        "sass",
-        "html"
-      ],
+      "pillList": ["react", "css", "html"],
       "websiteUrl": "https://www.vegangoteborg.se",
       "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
     }
@@ -35,7 +17,7 @@
     "thumbnail": "vegan_restuarant.jpg",
     "isDone": false,
     "project": {
-      "title": "Todo list",
+      "title": "Package tracker",
       "imageUrl": "vegan_restuarant.jpg",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       "pillList": ["react", "css", "sass"],
@@ -48,7 +30,7 @@
     "thumbnail": "vegan_restuarant.jpg",
     "isDone": false,
     "project": {
-      "title": "Vegan restaurant website",
+      "title": "Todo list TDD",
       "imageUrl": "vegan_restuarant.jpg",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       "pillList": ["react", "css", "sass"],
