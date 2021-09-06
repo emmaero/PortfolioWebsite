@@ -33,7 +33,7 @@
 .thumbnail-overlay >span {
     max-width: 86px;
     font-weight: bold;
-    color: var(--color-secondary);
+    color: var(--color-white);
 }
 
 .title {

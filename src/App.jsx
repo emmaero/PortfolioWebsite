@@ -10,13 +10,15 @@ import Technology from "./components/Technology";
 import List from "./components/List";
 import Contact from "./components/Contact";
 import PageFooter from "./components/PageFooter";
+
+// scripts
+import { description } from "./scripts/sectionDescriptions";
+//css
 import "./css/style.css";
 
 function App() {
-  const aboutDescription = `Hi! I’m Emmanuel, a junior frontend developer. This is my website, which i intend to use to showcase all me frontend projects.
-    I specialize in React for frontend development and very comfortable with c# dotnet for backend devlopment. Why do I need minimalistic design and attention to detail, you might ask? Well, scroll down and let me convince you.`;
-  const projectsDescription = `Here are projects have done some and some upcoming projects I will be doing during the Frontend course at Novare Potential.`;
-  const techDescription = `Here is the techology that I already know and also starting to learn.`;
+  const { aboutDescription, projectsDescription, techDescription } =
+    description;
   //Maximum number of technology allow in technologies
   const filterTechnologies = techologies.slice(0, 15);
 

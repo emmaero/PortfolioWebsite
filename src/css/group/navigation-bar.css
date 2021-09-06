@@ -1,6 +1,6 @@
 nav {
   min-height: 60px;
-  background-color: var(--color-gray-2);
+  background-color: var(--color-secondary-dark);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@ nav {
   padding: 0px var(--space-small);
 }
 .navigation-menu > a {
-  color: var(--color-secondary);
+  color: var(--color-white);
   font-size: var(--font-nav-mobile);
   text-decoration: none;
 }
