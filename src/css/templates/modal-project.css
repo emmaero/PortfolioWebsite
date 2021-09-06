@@ -10,7 +10,7 @@
 }
 .modal-wrapper {
   position: relative;
-  background-color: var(--color-secondary);
+  background-color: var(--color-white);
 }
 .modal-detail {
   max-width: 100%;

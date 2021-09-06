@@ -1,3 +1,6 @@
+.section-layout-container {
+  width: 100%;
+}
 .section-layout {
   display: grid;
   margin: auto;
@@ -9,13 +12,17 @@
   justify-content: center;
   width: 100%;
 }
-
-#portfolio > .section-content {
+#portfolio {
+  background-color: var(--color-secondary);
+}
+#contacts{
+  background-color: var(--color-secondary);
+}
+#portfolio .section-content {
   display: grid;
   grid-template-columns: auto auto;
-  
 }
-#tech > .section-content {
+#tech .section-content {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 32px;
@@ -35,7 +42,7 @@
   .section-content {
     grid-column: 2/4;
   }
-  #portfolio > .section-content {
+  #portfolio .section-content {
     display: grid;
     grid-template-columns: auto auto auto;
   }
