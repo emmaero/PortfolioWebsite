@@ -9,7 +9,6 @@ export default function Contact() {
       <ul className="contact">
         <li>
           <IoMdMail />
-
           <a>imhontu.emmanuel@yahoo.com</a>
         </li>
         <li>
