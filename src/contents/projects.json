@@ -5,16 +5,16 @@
     "thumbnail": "vegan_restuarant.jpg",
     "project": {
       "title": "Vegan restaurant website",
-      "imageUrl": "vegan.png",
+      "imageUrl": "vegan-restaurant.png",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       "pillList": ["react", "css", "html"],
-      "websiteUrl": "https://www.vegangoteborg.se",
-      "gitUrl": "https://github.com/emmaero/PortfolioWebsite.git"
+      "websiteUrl": "https://vegan-halmstad.web.app",
+      "gitUrl": "https://github.com/emmaero/vegan-restaurant.git"
     }
   },
   {
     "id": 2,
-    "thumbnail": "vegan_restuarant.jpg",
+    "thumbnail": "package-tracker.jpg",
     "isDone": false,
     "project": {
       "title": "Package tracker",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "thumbnail": "vegan_restuarant.jpg",
+    "thumbnail": "todo-list.jpg",
     "isDone": false,
     "project": {
       "title": "Todo list TDD",
@@ -40,10 +40,10 @@
   },
   {
     "id": 4,
-    "thumbnail": "vegan_restuarant.jpg",
+    "thumbnail": "e-commerce.jpg",
     "isDone": false,
     "project": {
-      "title": "Vegan restaurant website",
+      "title": "E-commerce site",
       "imageUrl": "vegan_restuarant.jpg",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       "pillList": ["react", "css", "sass"],
@@ -53,10 +53,10 @@
   },
   {
     "id": 5,
-    "thumbnail": "vegan_restuarant.jpg",
+    "thumbnail": "bbq-restaurant.jpg",
     "isDone": false,
     "project": {
-      "title": "Vegan restaurant website",
+      "title": "BBQ restaurant website",
       "imageUrl": "vegan_restuarant.jpg",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       "pillList": ["react", "css", "sass"],
@@ -66,10 +66,10 @@
   },
   {
     "id": 6,
-    "thumbnail": "vegan_restuarant.jpg",
+    "thumbnail": "learning-platform.jpg",
     "isDone": false,
     "project": {
-      "title": "Vegan restaurant website",
+      "title": "Learning platform",
       "imageUrl": "vegan_restuarant.jpg",
       "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       "pillList": ["react", "css", "sass"],
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "thumbnail": "vegan_restuarant.jpg",
+    "thumbnail": "netflix-clone.jpg",
     "isDone": false,
     "project": {
       "title": "Netflix clone",

@@ -10,6 +10,7 @@
 .button-secondary {
   border: 2px solid var(--color-secondary);
   color: var(--color-primary-dark);
+  background-color: var(--color-white);
 }
 
 .button-main {
