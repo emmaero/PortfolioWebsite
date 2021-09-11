@@ -22,7 +22,7 @@
 .thumbnail-overlay {
   position: absolute;
   top: 0;
-  background-color: rgba(41, 54, 54, 0.5);
+  background-color: var(--color-secondary-transparent);
   height: 100%;
   width: 100%;
   display: flex;
