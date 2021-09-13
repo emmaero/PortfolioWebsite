@@ -6,20 +6,17 @@ import Picture from "./components/Picture";
 import Card from "./components/Card";
 import projects from "./contents/projects.json";
 import techologies from "./contents/technologies.json";
-import title from "./contents/title.json";
 import Technology from "./components/Technology";
 import List from "./components/List";
 import Contact from "./components/Contact";
 import PageFooter from "./components/PageFooter";
+import sectionInfo from "./contents/section.json";
 
-// scripts
-import { description } from "./scripts/sectionDescriptions";
 //css
 import "./css/style.css";
 
 function App() {
-  const { aboutDescription, projectsDescription, techDescription } =
-    description;
+  const { about, project, tech, contact } = sectionInfo;
   //Maximum number of technology allow in technologies
   const filterTechnologies = techologies.slice(0, 15);
 
@@ -31,27 +28,27 @@ function App() {
       {/* I usually dont use comments in the code, but in this case is neccesary to make it easier to undrstand */}
 
       {/* About */}
-      <SectionLayout id="about" title={title.about} text={aboutDescription}>
+      <SectionLayout id="about" title={about.title} text={about.description}>
         <Picture />
       </SectionLayout>
 
       {/* Portoflio */}
-      <SectionLayout
-        id="portfolio"
-        title={title.project}
-        text={projectsDescription}
-      >
+      <SectionLayout id="portfolio" title={project.title} text={project.description}>
         <List list={projects} LayoutComponent={Card} />
       </SectionLayout>
 
       {/* Tech */}
-      <SectionLayout id="tech" title={title.tech} text={techDescription}>
+      <SectionLayout id="tech" title={tech.title} text={tech.description}>
         <List list={filterTechnologies} LayoutComponent={Technology} />
       </SectionLayout>
 
       {/* Contacts */}
       {/* Has the same text as tech. This does not reduce points, but fix it */}
-      <SectionLayout id="contacts" title={title.contact} text={techDescription}>
+      <SectionLayout
+        id="contacts"
+        title={contact.title}
+        text={contact.description}
+      >
         <Contact />
       </SectionLayout>
       <PageFooter />

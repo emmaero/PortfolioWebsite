@@ -15,7 +15,7 @@
 #portfolio {
   background-color: var(--color-secondary);
 }
-#contacts{
+#contacts {
   background-color: var(--color-secondary);
 }
 #portfolio .section-content {
@@ -24,7 +24,7 @@
 }
 #tech .section-content {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 32px;
 }
 @media only screen and (min-width: 768px) {

@@ -13,8 +13,10 @@ h3 {
 @media (min-width: 550px) {
   h1 {
     font-size: var(--font-heading-1-desktop);
+     line-height: 56px;
   }
   h2 {
     font-size: var(--font-heading-2-desktop);
+    line-height: 48px;
   }
 }

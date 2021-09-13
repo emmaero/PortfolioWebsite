@@ -5,5 +5,6 @@ p{
 @media (min-width: 550px) {
     p {
       font-size: var(--font-text-desktop);
+          line-height: 32px;
     }
   }
