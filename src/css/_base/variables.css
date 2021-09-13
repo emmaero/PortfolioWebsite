@@ -2,10 +2,13 @@
   /* Colors */
   --color-primary: #26337a;
   --color-primary-dark: #26337a;
-  --color-secondary: #ced7ec;
+  --color-secondary: #fbfbfb;
   --color-secondary-dark: #8c9cc3;
   --color-white: #ffffff;
   --color-gray-2: #c4c4c4;
+
+  --color-secondary-transparent:  #26337a7e;
+
 
   /* Spacing */
   --space-extra-big: 44px;

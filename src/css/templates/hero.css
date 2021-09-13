@@ -8,6 +8,10 @@
   padding: var(--space-big);
   line-height: 44px;
   text-align: center;
+  background-image: url(../../assets/images/portfolio-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
   background-color: var(--color-secondary);
 }
 @media only screen and (min-width: 768px) {

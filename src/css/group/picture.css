@@ -1,9 +1,8 @@
 .picture {
-text-align: center;
-padding: 44px 0;
+  text-align: center;
 }
-.picture > img{
-width: 95%;
-margin: auto;
-border-radius: 16px;
+.picture > img {
+  max-width: 300px;
+  margin: auto;
+  border-radius: 16px;
 }
