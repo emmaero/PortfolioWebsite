@@ -1,6 +1,6 @@
 p {
   font-size: var(--font-text-mobile);
-  line-height: 1.6;
+  line-height: 1.45;
   margin: var(--space-small) 0;
 }
 @media (min-width: 920px) {

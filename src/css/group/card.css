@@ -18,6 +18,7 @@
 .thumbnail > img {
   width: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
 .thumbnail-overlay {
   position: absolute;
@@ -29,6 +30,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 .thumbnail-overlay > span {
   width: inherit;
