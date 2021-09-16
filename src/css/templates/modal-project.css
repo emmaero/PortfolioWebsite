@@ -1,4 +1,4 @@
-.modal {
+.modal-background {
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -9,9 +9,19 @@
   align-items: center;
   background-color: var(--color-secondary-transparent);
 }
-.modal-wrapper {
+.modal-info-wrapper {
+  padding: 0 var(--space-medium);
+  display: flex;
+  flex-direction: column;
+}
+.modal-info-wrapper a{
+  align-self: center;
+  width: 80%;
+}
+.modal-container {
   position: relative;
   background-color: var(--color-white);
+  width: calc(100% - 30px);
 }
 .modal-detail {
   max-width: 100%;
@@ -21,13 +31,13 @@
   grid-gap: var(--space-medium);
   padding-bottom: var(--space-medium);
 }
-.modal-image-wrapper {
+.modal-image-container {
   display: flex;
   justify-content: center;
 }
-.modal-image-wrapper > img {
+.modal-image-wrapper img {
   width: 100%;
-  max-height: 184px;
+  min-height: 100%;
   object-fit: cover;
 }
 .pill-list {
@@ -35,34 +45,35 @@
   margin: 0;
   padding: 0;
 }
-.modal-info-wrapper {
+.modal-info-container {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.modal-info-wrapper > button {
+.modal-info-container > button {
   align-self: center;
 }
 .modal-description,
 .modal-title {
   padding: 0px var(--space-small);
 }
-@media only screen and (min-width: 768px) {
-  .modal-wrapper {
+@media only screen and (min-width: 720px) {
+  .modal-container {
     margin: auto;
     max-width: 960px;
   }
   .modal-detail {
-    grid-template-columns: auto auto;
+    grid-template-columns: 60% auto;
+    padding: var(--space-medium);
   }
-  .modal-image-wrapper {
+  .modal-image-container {
     padding: var(--space-medium);
     align-items: center;
   }
-  .modal-info-wrapper {
+  .modal-info-container {
     width: 327px;
   }
-  .modal-image-wrapper > img {
+  .modal-image-container > img {
     max-height: 100%;
     height: 100%;
   }

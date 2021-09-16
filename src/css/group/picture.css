@@ -2,7 +2,14 @@
   text-align: center;
 }
 .picture > img {
-  max-width: 300px;
+
   margin: auto;
-  border-radius: 16px;
+  max-width: 85%;
+
+}
+@media only screen and (min-width: 920px) {
+  .picture > img {
+    max-width: 320px;
+  }
+
 }

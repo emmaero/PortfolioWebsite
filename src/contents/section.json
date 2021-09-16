@@ -1,0 +1,27 @@
+{
+  "about": {
+    "title": "About me",
+    "description": [
+      "I have been enthusiastic about web development since the day i got my first computer. That has lead me to pursue a career in web development as a .net backend developer. Currently, I am focusing on frontend development and it has very exciting taking advantage of the power of react library to build interesting frontend projects.",
+      "My intention is to showcase all my frontend projects in this website. Be sure to revisit to see more interesting projects"
+    ]
+  },
+  "project": {
+    "title": "Projects",
+    "description": [
+      "Here are projects have done some and some upcoming projects I will be doing during the Frontend course at Novare Potential."
+    ]
+  },
+  "tech": {
+    "title": "Technologies I use",
+    "description": [
+      "Here are technologies I already know and some others that i am learning."
+    ]
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": [
+      "Here are my contact information if you are interested in starting a collaboration."
+    ]
+  }
+}

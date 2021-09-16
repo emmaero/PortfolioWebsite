@@ -1,18 +1,7 @@
-import React, { useState } from "react";
-import projects from "../contents/projects.json";
-import ProjectModal from "./ProjectModal";
-export default function Card({ item }) {
-  const [isOpen, setIsOpen] = useState(false);
-  //This show modal
-  function toggleModal() {
-    setIsOpen((prevState) => {
-      return !prevState;
-    });
-  }
-
+export default function Card({ item, onClick }) {
   return (
     <>
-      <button disabled={!item.isDone} onClick={toggleModal} className="card">
+      <button disabled={!item.isDone} onClick={onClick} className="card">
         <div className="thumbnail">
           <img
             src={require("../assets/thumbnails/" + item.thumbnail).default}
@@ -30,11 +19,6 @@ export default function Card({ item }) {
           <h3>{item.project.title}</h3>
         </div>
       </button>
-      <ProjectModal
-        isOpen={isOpen}
-        toggleModal={toggleModal}
-        item={item.project}
-      />
     </>
   );
 }
