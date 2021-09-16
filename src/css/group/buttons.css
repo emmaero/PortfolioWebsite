@@ -9,29 +9,31 @@
   background-color: var(--color-white);
 }
 
-.button-main {
+.button {
   height: 44px;
   cursor: pointer;
 }
-.button-main {
+.button {
   display: block;
   width: 90%;
   margin: 4px;
   transition: background-image 0.5s ease;
 }
-.button-main > a {
+.button > a {
   text-decoration: none;
+  display: block;
   color: inherit;
+  text-align: center;
 }
-.button-main > a:link {
+.button > a:link {
   text-decoration: none;
 }
 
-.button-main > a:visited {
+.button > a:visited {
   text-decoration: none;
 }
 
-.button-main > a {
+.button > a {
   text-decoration: none;
 }
 .button-main > a:link {
@@ -54,5 +56,5 @@ a:visited {
    border: 2px solid var(--color-secondary-dark);
 }
 .button-secondary:hover {
-  border: 2px solid var(--color-secondary-dark);
+  border: 2px solid var(--color-primary-dark);
 }

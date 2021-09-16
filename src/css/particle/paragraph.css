@@ -1,10 +1,10 @@
-p{
-    font-size: var(--font-text-mobile);
-    line-height: 22px;
+p {
+  font-size: var(--font-text-mobile);
+  line-height: 1.6;
+  margin: var(--space-small) 0;
 }
-@media (min-width: 550px) {
-    p {
-      font-size: var(--font-text-desktop);
-          line-height: 32px;
-    }
+@media (min-width: 920px) {
+  p {
+    font-size: var(--font-text-desktop);
   }
+}

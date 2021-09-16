@@ -6,6 +6,7 @@ export default function Hero() {
       <div className="hero-container">
         <h1>Hi i’m Emmanuel a frontend developer based in Halmstad, Sweden</h1>
       </div>
+      <div className="hero-overlay"></div>
     </header>
   );
 }

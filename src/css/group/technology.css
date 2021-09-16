@@ -12,7 +12,7 @@ width: 100%;
 color: var(--color-primary);
 font-size: 12px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 920px) {
   .tech-icon-background {
     width: 60px;
   }

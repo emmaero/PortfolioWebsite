@@ -7,6 +7,9 @@ nav {
   position: fixed;
   z-index: 1;
 }
+.logo-desktop {
+  display: none;
+}
 .navigation-menu {
   max-height: 30px;
   background-color: var(--color-primary);
@@ -38,7 +41,7 @@ nav {
 .menu-link:nth-of-type(5) {
   order: 5;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 920px) {
   .navigation-menu {
     max-height: 100%;
     height: 100%;
@@ -46,6 +49,12 @@ nav {
     flex-wrap: wrap;
     background-color: transparent;
     justify-content: flex-end;
+  }
+  .logo-mobile {
+    display: none;
+  }
+  .logo-desktop {
+    display: block;
   }
   nav {
     background-color: var(--color-primary);

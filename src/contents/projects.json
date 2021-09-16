@@ -6,7 +6,7 @@
     "project": {
       "title": "Vegan restaurant website",
       "imageUrl": "vegan-restaurant.png",
-      "text": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+      "text": "This is a fictional vegan restaurant with multiple pages. The website home page has category sections with buttons to category pages. The category page has list of product and link to product detail page",
       "pillList": ["react", "css", "html"],
       "websiteUrl": "https://vegan-halmstad.web.app",
       "gitUrl": "https://github.com/emmaero/vegan-restaurant.git"
