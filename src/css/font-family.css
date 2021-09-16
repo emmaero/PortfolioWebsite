@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Lato";
-  src: url("../assets/fonts/Lato-Bold.ttf");
+  font-family: "Nanum Gothic";
+  src: url("../assets/fonts/NanumGothic-Bold.ttf");
   font-weight: bold;
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../assets/fonts/Lato-Regular.ttf");
+  font-family: "Nanum Gothic";
+  src: url("../assets/fonts/NanumGothic-Regular.ttf");
   font-weight: normal;
 }

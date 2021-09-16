@@ -11,7 +11,9 @@
 .section-description {
   max-width: 450px;
 }
-
+  .section-layout > h2 {
+    justify-self: start;
+  }
 .section-content {
   display: flex;
   justify-content: center;
@@ -31,7 +33,11 @@
 #tech .section-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 0 var(--space-medium);
+}
+@media only screen and (min-width: 485px) {
+   .section-layout > h2 {
+    justify-self: center;
+  }
 }
 @media only screen and (min-width: 920px) {
   .section-layout {
@@ -41,6 +47,7 @@
   }
   .section-layout > h2 {
     grid-column: 1/4;
+    justify-self: start;
   }
   .section-description {
     grid-column: 1/2;
